@@ -1,4 +1,6 @@
-Versión en español más abajo 
+**************************
+English version - [Versión en español más abajo](#spanish)
+*************************
 
 # TinyMCE plugin for MantisBT
 
@@ -31,6 +33,8 @@ Feel free to explore the plugin and let me know how it goes!
 ## Usage
 
 
+***************************************************************************************
+## <a name="anchortext">Versión en español</a>
 ***************************************************************************************
 
 # TinyMCE plugin para MantisBT
