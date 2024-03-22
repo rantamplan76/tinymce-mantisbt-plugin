@@ -8,8 +8,7 @@ Copyright (c) 2024 Javi Escartin - https://javiescartin.com
 
 Released under the [MIT license](https://opensource.org/licenses/MIT)
 
-See the [Changelog](https://github.com/)
-
+<!-- See the [Changelog](https://github.com/) -->
 
 ## Description
 
@@ -27,11 +26,18 @@ Feel free to explore the plugin and let me know how it goes!
 ## Installation
 
 1. Download or clone a copy of the [plugin's code](https://github.com/).
-2. Copy the plugin 
-3. 
+2. Copy the plugin to your instalation plugins directory and rename folder as 
+TinymceEditor (case sensitive)
+3. Edit de file files/tinymceeditor.js
+    - Edit the mceSelector array adding the id of all textareas in that you
+    want to activate the editor
+    ```
+    mceSelector = ['#description', '#additional_info', '#bugnote_text']
+    ```
+4. Activate the pluging in the Plugins Administration Page
 
 ## Usage
-
+### TODO
 
 ***************************************************************************************
 ### Versión en español
