@@ -34,7 +34,7 @@ Feel free to explore the plugin and let me know how it goes!
 
 
 ***************************************************************************************
-## <a name="anchortext">Versión en español</a>
+<a name="anchortext"></a>Versión en español
 ***************************************************************************************
 
 # TinyMCE plugin para MantisBT
