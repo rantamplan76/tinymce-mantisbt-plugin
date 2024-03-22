@@ -1,5 +1,5 @@
 **************************
-English version - [Versión en español más abajo](#versión-en-español)
+###English version - [Versión en español más abajo](#versión-en-español)
 *************************
 
 # TinyMCE plugin for MantisBT
@@ -25,7 +25,7 @@ Feel free to explore the plugin and let me know how it goes!
 
 ## Installation
 
-1. Download or clone a copy of the [plugin's code](https://github.com/).
+1. Download or clone a copy of the [plugin's code](https://github.com/rantamplan76/tinymce-mantisbt-plugin).
 2. Copy the plugin to your instalation plugins directory and rename folder as 
 TinymceEditor (case sensitive)
 3. Edit de file files/tinymceeditor.js
@@ -34,7 +34,7 @@ TinymceEditor (case sensitive)
     ```
     mceSelector = ['#description', '#additional_info', '#bugnote_text']
     ```
-4. Activate the pluging in the Plugins Administration Page
+4. Activate the plugin in the Plugins Administration Page
 
 ## Usage
 ### TODO
@@ -66,9 +66,16 @@ experiencia.
 
 ## Instalación
 
-1. Download or clone a copy of the [plugin's code](https://github.com/).
-2. Copy the plugin 
-3. 
+1. Descarga o clona una copia del [codigo del plugin](https://github.com/rantamplan76/tinymce-mantisbt-plugin).
+2. Copia el plugin en el directorio de plugins de tu instalación y renombra la carpeta como 
+TinymceEditor (distingue entre mayúsculas y minúsculas).
+3. Edita el archivo files/tinymceeditor.js
+    - Editar el array mceSelector añadiendo el id de todos los textareas en que desees
+    activar el editor:
+    ```
+    mceSelector = ['#description', '#additional_info', '#bugnote_text']
+    ```
+4. Activa el plugin en la página de administración de plugins
 
 ## Manejo
 
